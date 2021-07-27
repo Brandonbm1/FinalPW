@@ -1,21 +1,19 @@
 import { Fragment } from "react";
 import { Route } from "react-router-dom"
+import Deliver from "../Pages/Delivers/Deliver";
 import Login from "../Pages/Sign/Login";
 
 function Routes(){
     return(
         <Fragment>
             <Route path="/" exact>
-                Inicio
+                <Deliver />
             </Route>
             <Route path="/login">
                 <Login />
             </Route>
-            <Route path="/signup">
+            <Route path="/signin">
                 Registrarse
-            </Route>
-            <Route path="/deliver" exact>
-                Domicilios
             </Route>
             <Route path="/deliver/details">
                 Detalles del domicilio

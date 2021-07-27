@@ -4,3 +4,14 @@
 .navbar{
     background-color: #e3f2fd;
 }
+.footer{
+    background-color: #e3f2fd;
+}
+.btn-group{
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+.list{
+    border-top: 1px #BBA solid;
+    border-bottom: 1px #BBA solid;
+}
